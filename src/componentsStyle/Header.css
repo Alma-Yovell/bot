@@ -1,0 +1,33 @@
+.header {
+    position: fixed; /* Fixed position at the top */
+    top: 0;
+    width: 100vw;
+    height: 25vmin;
+    z-index: 1000; /* Ensure the header is above other content */
+    background-color: white; /* Add background color to ensure text is readable */
+  }
+  
+  .collegeLogoText {
+    height: 16vmin; /* Adjust size as needed */
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 4vh;
+    left: 3vw; 
+    width: 10vw;
+    height: auto;
+  }
+  
+  .orangeTriangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 42vw; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: -111; /* Ensure the decorative photo is below the rest of the content */
+  }
+  
