@@ -1,7 +1,7 @@
 import React from 'react';
 import '../componentsStyle/Header.css';
 
-function Header() {
+function Header({ onMenuClick }) {
     return (
       <header className="header">
 
@@ -16,7 +16,7 @@ function Header() {
           src={process.env.PUBLIC_URL + '/navbar.png'}
           className="navbar"
           alt="navbar"
-        //   onClick={onMenuClick}
+          onClick={onMenuClick}
         />
 
         <img
