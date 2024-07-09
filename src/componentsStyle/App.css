@@ -1,0 +1,15 @@
+.blue-triangle{
+    position: absolute;
+    right: 0vw;
+    height: 13vh;
+    bottom: 0vh; 
+    transform: rotate(180deg);
+}
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Karantina:wght@300;400;700&display=swap');
+
+
+
+
+  

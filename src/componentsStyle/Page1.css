@@ -1,0 +1,29 @@
+.Page1 {
+    position: relative;
+    top: 15vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 76vh;
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+  }
+  
+  .title-page1 {
+    font-family: 'Karantina', cursive;
+    font-size: 16vw;
+    color: #50565c;
+    margin-bottom: 3vw;
+    margin-top: 6vh;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .text-page1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 5vmin;
+    color: grey;
+    text-align: center;
+    margin-bottom: 6vh;
+    margin-top: 6vh;
+    width: 100%;
+  }
