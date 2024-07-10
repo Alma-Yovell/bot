@@ -5,12 +5,15 @@ function Page1() {
     return (
         <div className="Page1">
 
-            <div className="title-page1">
-                כותרת עמוד 1
-            </div>
+            <div className='content'>
+                <div className="title-page">
+                    כותרת עמוד 1
+                </div>
 
-            <div className="text-page1">
-            טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט
+                <div className="text-page">
+                    טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט
+                </div>
+
             </div>
 
         </div>

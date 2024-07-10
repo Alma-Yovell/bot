@@ -23,27 +23,35 @@
     height: auto;
   }
 
+  /* .hamburger{
+    position: absolute;
+    z-index: 4;
+    top: 4vh;
+    left: 5vw;  
+  }
 
-  /* #hamburger.is-active .line:nth-child(2){
+  .hamburger .line{
+    width: 35px;
+    height: 4px;
+    background-color: #000000;
+    display: block;
+    margin: 6px auto;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+  #hamburger.is-active .line:nth-child(2){
     opacity: 0;
   }
   
   #hamburger.is-active .line:nth-child(1){
-    -webkit-transform: translateY(13px) rotate(45deg);
-    -ms-transform: translateY(13px) rotate(45deg);
-    -o-transform: translateY(13px) rotate(45deg);
     transform: translateY(13px) rotate(45deg);
   }
   
   #hamburger.is-active .line:nth-child(3){
-    -webkit-transform: translateY(-13px) rotate(-45deg);
-    -ms-transform: translateY(-13px) rotate(-45deg);
-    -o-transform: translateY(-13px) rotate(-45deg);
     transform: translateY(-13px) rotate(-45deg);
   } */
 
-
-  
   .orangeTriangle {
     position: absolute;
     top: 0vh;

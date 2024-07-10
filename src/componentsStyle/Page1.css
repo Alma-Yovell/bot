@@ -1,14 +1,5 @@
-.Page1 {
-    position: relative;
-    top: 15vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    height: 76vh;
-    overflow-y: auto;
-    /* Enable vertical scrolling */
-  }
-  
-  .title-page1 {
+
+  .title-page {
     font-family: 'Karantina', cursive;
     font-size: 16vw;
     color: #50565c;
@@ -18,7 +9,7 @@
     text-align: center;
   }
   
-  .text-page1 {
+  .text-page {
     font-family: 'Heebo', sans-serif;
     font-size: 5vmin;
     color: grey;

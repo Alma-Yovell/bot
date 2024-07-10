@@ -4,7 +4,8 @@ import '../componentsStyle/HomePage.css'
 function HomePage({ onNavigate }) {
     return (
         <div className="HomePage">
-
+            
+            <div className='content'>
                 <div className="title">
                     כותרת הלומדה
                 </div>
@@ -29,7 +30,7 @@ function HomePage({ onNavigate }) {
 
                     <div className="pages-list-item" >
                         <div className="pages-list-content">
-                            <div className="pages-list-title-homepage"> עמוד 3</div>
+                            <div className="pages-list-title-homepage" onClick={() => onNavigate('Page3')}> עמוד 3</div>
                         </div>
                     </div>
 
@@ -41,6 +42,8 @@ function HomePage({ onNavigate }) {
                 </div>
 
             </div>
+
+        </div>
     )
 }
 

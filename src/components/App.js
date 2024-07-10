@@ -8,7 +8,6 @@ import Page2 from './Page2.js';
 import Page3 from './Page3.js';
 
 
-
 function App() {
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +15,7 @@ function App() {
 
   const handleNavigate = (component) => {
     setActiveComponent(component);
-    setMenuOpen(false); // Close the menu after navigating
+    setMenuOpen(false); 
   }
 
   return (
@@ -29,7 +28,7 @@ function App() {
       {activeComponent === 'HomePage' && <HomePage onNavigate={handleNavigate} />}
       {activeComponent === 'Page1' && <Page1 />}
       {activeComponent === 'Page2' && <Page2 />}
-      <Page3 />
+      {activeComponent === 'Page3' && <Page3 />}
 
       <img src={process.env.PUBLIC_URL + '/blueTriangle.png'} alt="blueT" className="blue-triangle" />
 

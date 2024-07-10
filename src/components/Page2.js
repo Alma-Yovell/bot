@@ -5,15 +5,17 @@ function Page2() {
     return (
         <div className="Page2">
 
-                <div className="title-page2">
+            <div className='content'>
+                <div className="title-page">
                     כותרת עמוד 2
                 </div>
 
-                <div className="text-page2">
+                <div className="text-page">
                     טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט
                 </div>
-
             </div>
+
+        </div>
 
     )
 }

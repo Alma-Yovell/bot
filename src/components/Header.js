@@ -1,7 +1,15 @@
+// import React, { useState } from 'react';
 import React from 'react';
 import '../componentsStyle/Header.css';
 
 function Header({ onMenuClick }) {
+
+    // const [isActive, setIsActive] = useState(false);
+
+    // const toggleMenu = () => {
+    //     setIsActive(!isActive); 
+    // };
+
     return (
         <header className="header">
 
@@ -9,7 +17,7 @@ function Header({ onMenuClick }) {
                 src={process.env.PUBLIC_URL + '/collegeLogoText.png'}
                 className="collegeLogoText"
                 alt="logo"
-                onClick={() => window.location.reload()} // Redirects to home page
+                onClick={() => window.location.reload()} 
             />
 
             <img
@@ -19,10 +27,10 @@ function Header({ onMenuClick }) {
                 onClick={onMenuClick}
             />
 
-            {/* <div class="navbar" id="navbar">
-                <span id="line1"></span>
-                <span id="line2"></span>
-                <span id="line3"></span>
+            {/* <div className={`hamburger ${isActive ? 'is-active' : ''}`} id="hamburger" onClick={() => { toggleMenu(); onMenuClick(); }}>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
             </div> */}
 
             <img

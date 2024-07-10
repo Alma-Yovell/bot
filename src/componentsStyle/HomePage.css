@@ -1,11 +1,12 @@
-.HomePage {
+
+/* מחלקה לתוכן הכללי של כל העמודים - נמצא גם בעמוד הבית וגם בפים 1 עד 3 */
+.content {
   position: relative;
   top: 15vh;
   padding-left: 5vw;
   padding-right: 5vw;
   height: 76vh;
   overflow-y: auto;
-  /* Enable vertical scrolling */
 }
 
 .title {
@@ -54,10 +55,11 @@
 }
 
 .pages-list-title-homepage {
-  flex-grow: 1;
-  text-align: right;
-  padding-left: 8vw;
-  font-size: 3vh;
-  color: #000000;
-  font-weight: bolder;
+  font-family: 'Heebo', sans-serif;
+    flex-grow: 1;
+    text-align: right;
+    padding-left: 8vw;
+    font-size: 3vh;
+    color: #616161;
+    font-weight: bolder;
 }
