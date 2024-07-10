@@ -15,7 +15,7 @@ function App() {
 
   const handleNavigate = (component) => {
     setActiveComponent(component);
-    setMenuOpen(false); 
+    setMenuOpen(false);
   }
 
   return (
@@ -23,14 +23,16 @@ function App() {
 
       <Header onMenuClick={() => setMenuOpen(true)} />
 
-      {menuOpen && <Menu onClose={() => setMenuOpen(false)}  onNavigate={handleNavigate} />}
+      {menuOpen && <Menu onClose={() => setMenuOpen(false)} onNavigate={handleNavigate} />}
 
       {activeComponent === 'HomePage' && <HomePage onNavigate={handleNavigate} />}
       {activeComponent === 'Page1' && <Page1 />}
       {activeComponent === 'Page2' && <Page2 />}
       {activeComponent === 'Page3' && <Page3 />}
 
+      <div className='footer'></div>
       <img src={process.env.PUBLIC_URL + '/blueTriangle.png'} alt="blueT" className="blue-triangle" />
+
 
     </div>
   );

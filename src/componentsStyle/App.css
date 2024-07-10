@@ -1,8 +1,18 @@
+.footer{
+    position: fixed; 
+    bottom: 0vh;
+    width: 100vw;
+    height: 10vmin;
+    z-index: 2; 
+    background-color: white; 
+}
+
 .blue-triangle{
     position: absolute;
     right: 0vw;
     height: 13vh;
     bottom: 0vh; 
+    z-index: 3;
     transform: rotate(180deg);
 }
   
